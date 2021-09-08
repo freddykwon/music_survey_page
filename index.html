@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+  <body>
+    <h1 id="title">Music Survey</h1>
+    <div>
+      <p id="description"><em>Getting to know your listening habits</em></p>
+    </div>
+    <form id="survey-form"><br>
+      <label for="name" id="name-label">Name:</label><br>
+        <input type="text" id="name"placeholder="Enter name here"required><br><br>
+      <label for="email"id="email-label">Email:</label><br>
+        <input type="email" id="email"placeholder="Enter email here"required><br><br>
+      <label for="number" id="number-label">Age:</label><br>
+        <input type="number" id="number"placeholder="#"name="age"min="1" max="100"required><br><br>
+      <label for="frequency">How much music do you listen to everyday?</label><br>
+        <select id="dropdown" placeholder="# of Minutes"name="number-minutes"required>
+          <option value="select-minutes"disabled selected hidden>Select Time</option>
+          <option value="1">0-30 mins</option>
+          <option value="2">45 mins-1.5 hrs</option>
+          <option value="3">2 hrs-5 hrs </option>
+          <option value="4">All day!</option>
+      </select><br>
+      <p>What's your favourite genre of music?</p>
+        <label for="pop"><input type="radio" name="music" value="pop">Pop</label><br>
+        <label for="rock"><input type="radio" name="music" value="rock">Rock</label><br>
+        <label for="raprnb"><input type="radio" name="music" value="raprnb">Rap and Rnb</label><br>
+        <label for="classical"><input type="radio" name="music" value="classical">Classical</label><br>
+      <p>Any genre you'd like to get more into? (Check all that apply)</p>
+        <label for="pop"><input type="checkbox" name="music" value="pop">Pop</label><br>
+        <label for="rock"><input type="checkbox" name="music" value="rock">Rock</label><br>
+        <label for="raprnb"><input type="checkbox" name="music" value="raprnb">Rap and Rnb</label><br>
+        <label for="classical"><input type="checkbox" name="music" value="classical">Classical</label><br><br>
+      <label for="fav-song">What's your favourite song of 2021 so far and why?</label><br><br>
+        <textarea id="fav-song" name="fav-song" rows="4" cols="50"required></textarea><br>
+      <input id="submit"type="submit" value="Submit"><br>
+    </form>
+  </body>
+</html>
