@@ -1,4 +1,6 @@
-Music listening habits survey.
+A music listening habits survey page. 
+
+The third assignment for freeCodeCamp's Responsive Web Design course.
 
 Check it out here:
 
